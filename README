@@ -1,0 +1,14 @@
+# Analisis Ekspresi Gen (DEG) - Medicago truncatula
+**Nama:** Alif Rahman Hakim  
+**ID:** 119  
+**Dataset:** GSE26548 (Liu et al., 2011)
+
+## Deskripsi
+Repository ini berisi hasil re-analisis data microarray dari mutan *nsp1* pada tanaman *Medicago truncatula*. Analisis difokuskan pada peran NSP1 dalam jalur biosintesis **Strigolactone**.
+
+## Isi File
+* `119_Alif Rahman Hakim_Week 3.pdf`: Laporan lengkap hasil analisis.
+* `Analisis_DEG_GSE26548_119_Alif Rahman Hakim.R`: Script bahasa R yang digunakan untuk analisis.
+
+## Temuan Utama
+Analisis memvalidasi penurunan ekspresi gen **D27** pada mutan *nsp1*, yang menjelaskan kegagalan produksi hormon strigolaktone sesuai dengan temuan Liu et al. (2011).
