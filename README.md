@@ -1,12 +1,22 @@
-# Praktikum Omics Lite - Week 2
-Repositori ini berisi tugas analisis transkriptomik menggunakan GEO2R.
+# Analisis Transkriptomik Respon Kekeringan Medicago truncatula
 
-## Informasi Tugas
-- **Nama:** Alif Rahman Hakim
-- **Instansi:** Universitas Negeri Jakarta
-- **Dataset:** GSE26548 (*Medicago truncatula*)
-- **File Laporan:** [119_Alif Rahman Hakim_Week 2.pdf](./119_Alif%20Rahman%20Hakim_Week%202.pdf)
+Repository ini berisi analisis fungsional gen pada bintil akar *Medicago truncatula* yang mengalami cekaman kekeringan selama 4 hari (T4) dibandingkan dengan kontrol (T0).
 
-## Ringkasan Analisis
-Analisis dilakukan untuk membandingkan ekspresi gen antara kelompok **Wildtype** dan **Mutant (NSP1/NSP2)**. 
-Hasil identifikasi menunjukkan 10 gen dengan signifikansi tertinggi (Top 10 DEGs) yang memenuhi kriteria `adj.P.Val < 0.05` dan `|logFC| > 1`.
+## Deskripsi Proyek
+Proyek ini mengidentifikasi Differentially Expressed Genes (DEGs) menggunakan data transkriptomik dari GSE126986. Analisis dilakukan menggunakan bahasa pemrograman R untuk memahami mekanisme pertahanan tanaman legum terhadap stres abiotik.
+
+## Hasil Utama
+- **Total DEGs:** 2488 gen (FDR < 0.05, |log2FC| > 1)
+- **Up-regulated:** 884 gen
+- **Down-regulated:** 1604 gen
+
+### Visualisasi
+![Volcano Plot](results/Volcano_Plot_Medicago.png)
+
+## Struktur File
+- `scripts/analysis.R`: Script utama pemrosesan data.
+- `data/`: Dataset mentah (CSV).
+- `results/`: Output visualisasi (Volcano Plot & Tabel).
+
+## Referensi
+Sańko-Sawczenko, I., et al. (2019). International Journal of Molecular Sciences.
