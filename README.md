@@ -1,3 +1,4 @@
+# Capstone Project BRSP - Omnics Lite 2026 - Week 4 & 5 
 # Analisis Transkriptomik Respon Kekeringan Medicago truncatula
 
 Repository ini berisi analisis fungsional gen pada bintil akar *Medicago truncatula* yang mengalami cekaman kekeringan selama 4 hari (T4) dibandingkan dengan kontrol (T0).
